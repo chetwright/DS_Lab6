@@ -21,6 +21,8 @@ public class PaintBrush
 	Paint Gold = new PaintColor(Color.GOLD);
 	Paint White = new PaintColor(Color.WHITE);
 	Paint Green = new PaintColor(Color.GREEN);
+	Paint DarkerGreen = new PaintDarker(Green);
+	Paint DarkestGreen = new PaintDarker(DarkerGreen);
 	Paint Blue = new PaintColor(Color.BLUE);
 	Paint Purple = new PaintColor(Color.PURPLE);
 	Paint Red = new PaintColor(Color.RED);
@@ -30,7 +32,7 @@ set the "paint" for the paintbrush
 */	
 	public void setPaint(Paint paint)
 	{
-   
+   		
    
 	}
 
