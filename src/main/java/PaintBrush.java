@@ -20,8 +20,11 @@ public class PaintBrush
 	
 	Paint Gold = new PaintColor(Color.GOLD);
 	Paint White = new PaintColor(Color.WHITE);
-	
-	
+	Paint Green = new PaintColor(Color.GREEN);
+	Paint Blue = new PaintColor(Color.BLUE);
+	Paint Purple = new PaintColor(Color.PURPLE);
+	Paint Red = new PaintColor(Color.RED);
+	Paint Black = new PaintColor(Color.BLACK);
 /**
 set the "paint" for the paintbrush
 */	
