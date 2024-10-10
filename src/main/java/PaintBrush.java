@@ -10,7 +10,7 @@ public class PaintBrush
 	
 	
 	enum BrushMode{
-		paintMode,
+		pointMode,
 		fillMode,
 		pattern1Mode,
 		pattern2Mode
@@ -32,7 +32,7 @@ set the "paint" for the paintbrush
 */	
 	public void setPaint(Paint paint)
 	{
-   		
+   		this.paint = paint;
    
 	}
 
@@ -42,7 +42,7 @@ set the "paint" for the paintbrush
 */
 	public Paint getPaint()
 	{
-		return Gold;
+		return paint;
 	}
 	
    
@@ -51,7 +51,7 @@ set the "paint" for the paintbrush
    */
 	public void setBrighter()
 	{		
-
+		setPaint(new paintBrighter(getPaint());
 	}
 
 
@@ -60,7 +60,7 @@ set the "paint" for the paintbrush
    */
 	public void setDarker()
 	{
-		
+		setPaint(new paintDarker(getPaint());
 	}
 
 
@@ -79,7 +79,7 @@ set the "paint" for the paintbrush
 */
 	public void pointMode()
 	{
-		mode= BrushMode.paintMode;
+		mode= BrushMode.pointMode;
 	}
 
 	public void fillMode()
